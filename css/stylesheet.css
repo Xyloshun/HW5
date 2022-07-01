@@ -1,0 +1,92 @@
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightgrey;
+}
+
+div {
+  display: block;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  margin-top: 15px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slot {
+  background-image: url("graphics_data/Scrabble_Tiles/Scrabble_Tile_Blank.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.tileonrack {
+  margin: 0 auto;
+}
+
+.tileonboard {
+  margin: 0 auto;
+}
+
+#board {
+  background-image: url("graphics_data/ScrabbleBoard.jpg");
+  height: 60px;
+  width: 520px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#rack {
+  background-image: url("graphics_data/scrabble_tile_holder");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 560px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#user_guide {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Georgia;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+#buttons {
+  height: 150px;
+  text-align: center;
+}
+#scoreboard {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Georgia;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
